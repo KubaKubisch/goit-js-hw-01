@@ -1,6 +1,10 @@
 
-function makeTransaction(quanity, pricePerDroid) {
-    console.log(`You ordered ${quanity} droids worth ${quanity * pricePerDroid} credits!`);
 
+
+function makeTransaction(quanity, pricePerDroid) {
+   return `You ordered ${quanity} droids worth ${quanity * pricePerDroid} credits!`;
 }
-makeTransaction(1, 10)
+
+console.log(makeTransaction(5, 3000));
+console.log(makeTransaction(3, 1000));
+console.log(makeTransaction(10, 500));
